@@ -1,0 +1,40 @@
+Reproducible Data Documentation
+========================================================
+author: James Canterbury
+date:   2/11/2018
+autosize: true
+
+Intro to R Presentations 
+========================================================
+
+For more details on authoring R presentations please visit <https://support.rstudio.com/hc/en-us/articles/200486468>.
+
+- R has the ability to produce nice looking presentations.
+- The presentations can run code.
+- R Presentations can take in data pipelines and easily create reports on demand.
+
+Example of Code
+========================================================
+
+```{r}
+summary(cars)
+```
+
+Example of Plot
+========================================================
+
+```{r, echo=FALSE}
+plot(cars)
+```
+
+Summary
+========================================================
+
+- The third slide ran a summary function on the Mtcars data set.
+- The forth slide ran a plot on the Mtcars data set.
+
+
+Conclusion
+========================================================
+
+I hope you enjoyed some basic applications and uses of R Presentations.
